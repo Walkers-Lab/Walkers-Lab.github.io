@@ -1,0 +1,103 @@
+# ---------------------------------------------------------------------------
+# Site settings
+# ---------------------------------------------------------------------------
+title: "My Blog"
+name: "Your Name"
+description: "A personal blog built with Jekyll and Minimal Mistakes."
+url: "https://example.com"        # the base hostname & protocol (no trailing slash)
+baseurl: ""                       # subpath, e.g. "/blog" — leave empty for root
+repository: "yourname/yourname.github.io"
+
+# Theme
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"  # "air", "aqua", "contrast", "dark", "dirt",
+                                  # "neon", "mint", "plum", "sunrise"
+
+# ---------------------------------------------------------------------------
+# Search  (this is what powers the client-side search on grahamwatts.co.uk)
+# ---------------------------------------------------------------------------
+search: true
+search_full_content: true
+search_provider: lunr             # lunr = fully client-side, no backend needed
+lunr:
+  search_within_pages: true
+
+# ---------------------------------------------------------------------------
+# Build settings
+# ---------------------------------------------------------------------------
+markdown: kramdown
+locale: "en-GB"
+timezone: Europe/London
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Pagination (classic jekyll-paginate — needs index.html, not index.md)
+paginate: 5
+paginate_path: /page:num/
+
+# Reading files
+include:
+  - _pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - node_modules
+
+# ---------------------------------------------------------------------------
+# Author sidebar (shown next to posts)
+# ---------------------------------------------------------------------------
+author:
+  name: "Your Name"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "A short line about you."
+  location: "United Kingdom"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yourname"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:you@example.com"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yourname"
+
+# ---------------------------------------------------------------------------
+# Default front-matter for posts and pages
+# ---------------------------------------------------------------------------
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Archive pages
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
