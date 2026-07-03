@@ -1,5 +1,5 @@
 ---
-title: "Welcome to My Blog"
+title: "Deploy vmWare tools with Intune"
 date: 2026-07-03 10:00:00 +0100
 categories:
   - general
@@ -12,9 +12,7 @@ header:
   teaser: /assets/images/sample-banner.png    # thumbnail on the home/archive pages
 ---
 
-Welcome! This is the first post on my new blog, built with
-[Jekyll](https://jekyllrb.com) and the
-[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme.
+In this guide I will be explaining how to deploy the VMware Tools application via Intune. VMware Tools is a suite of utilities and drivers that enhance the performance and management of virtual machines (VMs) running on VMware virtualization platforms. It provides improved graphics performance, better mouse handling, synchronized time between host and guest, and smooth file transfers between them. Additionally, VMware Tools enable advanced features like shared folders, seamless clipboard operations, and more efficient VM management.
 
 ## Writing posts
 

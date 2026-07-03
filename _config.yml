@@ -1,8 +1,8 @@
 # ---------------------------------------------------------------------------
 # Site settings
 # ---------------------------------------------------------------------------
-title: "My Blog"
-name: "Your Name"
+title: "Walkers Lab"
+name: "Connor"
 description: "A personal blog built with Jekyll and Minimal Mistakes."
 url: "https://walkers-lab.github.io"  # base hostname & protocol (no trailing slash)
 baseurl: ""                           # empty = served at the root
@@ -53,7 +53,7 @@ exclude:
 # Author sidebar (shown next to posts)
 # ---------------------------------------------------------------------------
 author:
-  name: "Your Name"
+  name: "Connor Walker"
   avatar: "/assets/images/bio-photo.jpg"
   bio: "A short line about you."
   location: "United Kingdom"
