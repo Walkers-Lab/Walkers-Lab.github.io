@@ -27,3 +27,5 @@ Every post is just a Markdown file in the `_posts/` folder, named
 - An RSS feed and sitemap, generated automatically
 
 Delete this post whenever you're ready and start writing your own.
+
+This is a test
