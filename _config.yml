@@ -4,9 +4,9 @@
 title: "My Blog"
 name: "Your Name"
 description: "A personal blog built with Jekyll and Minimal Mistakes."
-url: "https://example.com"        # the base hostname & protocol (no trailing slash)
-baseurl: ""                       # subpath, e.g. "/blog" — leave empty for root
-repository: "yourname/yourname.github.io"
+url: "https://walkers-lab.github.io"  # base hostname & protocol (no trailing slash)
+baseurl: ""                           # empty = served at the root
+repository: "Walkers-Lab/Walkers-Lab.github.io"
 
 # Theme
 theme: minimal-mistakes-jekyll
@@ -60,7 +60,7 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourname"
+      url: "https://github.com/Walkers-Lab"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:you@example.com"
@@ -69,7 +69,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourname"
+      url: "https://github.com/Walkers-Lab"
 
 # ---------------------------------------------------------------------------
 # Default front-matter for posts and pages
