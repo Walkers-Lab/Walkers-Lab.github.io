@@ -7,6 +7,9 @@ tags:
   - hello
   - jekyll
 excerpt: "The first post — a quick tour of how this blog is put together."
+header:
+  image: /assets/images/sample-banner.png    # banner across the top of the post
+  teaser: /assets/images/sample-banner.png    # thumbnail on the home/archive pages
 ---
 
 Welcome! This is the first post on my new blog, built with
@@ -25,6 +28,23 @@ Every post is just a Markdown file in the `_posts/` folder, named
 - Client-side search (try the **Search** link in the menu)
 - Category and tag archive pages
 - An RSS feed and sitemap, generated automatically
+
+## Adding images
+
+Here's a plain inline image (the text in brackets is the alt text):
+
+![A teal-to-indigo gradient banner](/assets/images/sample-banner.png)
+
+The same image, centered, using a Minimal Mistakes alignment class:
+
+![A teal-to-indigo gradient banner](/assets/images/sample-banner.png){: .align-center}
+
+And with a caption, using a small HTML figure block:
+
+<figure>
+  <img src="/assets/images/sample-banner.png" alt="A teal-to-indigo gradient banner">
+  <figcaption>A sample banner generated as a placeholder.</figcaption>
+</figure>
 
 Delete this post whenever you're ready and start writing your own.
 
