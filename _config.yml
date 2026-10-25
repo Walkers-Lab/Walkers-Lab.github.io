@@ -2,9 +2,10 @@
 # Site settings
 # ---------------------------------------------------------------------------
 title: "Walkers Lab"
+logo: "/assets/images/logo.png"        # shown at the top-left (the text title is hidden via CSS)
 name: "Connor"
 description: "A personal blog built with Jekyll and Minimal Mistakes."
-url: "https://walkers-lab.github.io"  # base hostname & protocol (no trailing slash)
+url: "https://walkerslab.co.uk"  # base hostname & protocol (no trailing slash)
 baseurl: ""                           # empty = served at the root
 repository: "Walkers-Lab/Walkers-Lab.github.io"
 
@@ -21,6 +22,13 @@ search_full_content: true
 search_provider: lunr             # lunr = fully client-side, no backend needed
 lunr:
   search_within_pages: true
+
+# ---------------------------------------------------------------------------
+# Analytics — Cloudflare Web Analytics (cookieless, no consent banner needed)
+# Paste the token from Cloudflare dashboard → Web Analytics → your site.
+# Leave empty to disable (e.g. so local builds don't report traffic).
+# ---------------------------------------------------------------------------
+cloudflare_analytics_token: "a6b65b7664a34a0486ed2b207129933d"
 
 # ---------------------------------------------------------------------------
 # Build settings
@@ -55,24 +63,27 @@ exclude:
 author:
   name: "Connor Walker"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "A short line about you."
+  bio: "Hey! I'm Connor. I work as a Systems Engineer in the UK and I love to write about IT, Office 365, Home Lab stuff, and PowerShell. "
   location: "United Kingdom"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Walkers-Lab"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/connor-walker-a46013162/"
     - label: "Microsoft Learn"
       icon: "fa-brands fa-microsoft"
       url: "https://learn.microsoft.com/en-gb/users/connorwalker-1962"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:you@example.com"
+      url: "mailto:connor@walkerslab.co.uk"
 
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Walkers-Lab"
+# (footer.links intentionally omitted — no social links in the footer)
+
+# Hide the RSS "Feed" link in the footer (feed.xml is still generated for subscribers)
+atom_feed:
+  hide: true
 
 # ---------------------------------------------------------------------------
 # Default front-matter for posts and pages
@@ -84,10 +95,11 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide          # expand content into the empty right-hand column
       author_profile: true
       read_time: true
       comments: false
-      share: true
+      share: false
       related: true
   # _pages
   - scope:

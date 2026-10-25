@@ -9,3 +9,14 @@ node_modules/
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# WordPress export — keep out of the public repo
+jekyll-export/
+
+# Large binaries / installers that must never be committed
+# (GitHub rejects files > 100 MB and they bloat the repo)
+*.dmg
+*.iso
+*.zip
+*.exe
+*.msi

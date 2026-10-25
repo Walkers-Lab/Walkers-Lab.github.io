@@ -1,0 +1,24 @@
+<!-- start custom footer snippets -->
+
+<!-- Reading progress bar (styled in assets/css/main.scss) -->
+<div id="reading-progress" role="progressbar" aria-hidden="true"></div>
+<script>
+  (function () {
+    var bar = document.getElementById("reading-progress");
+    if (!bar) return;
+
+    function update() {
+      var doc = document.documentElement;
+      var scrollTop = doc.scrollTop || document.body.scrollTop;
+      var scrollable = (doc.scrollHeight || document.body.scrollHeight) - doc.clientHeight;
+      var percent = scrollable > 0 ? (scrollTop / scrollable) * 100 : 0;
+      bar.style.width = percent + "%";
+    }
+
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    update();
+  })();
+</script>
+
+<!-- end custom footer snippets -->
