@@ -4,14 +4,14 @@
 title: "Walkers Lab"
 logo: "/assets/images/logo.png"        # shown at the top-left (the text title is hidden via CSS)
 name: "Connor"
-description: "A personal blog built with Jekyll and Minimal Mistakes."
+description: "Practical write-ups on Intune, Microsoft 365, PowerShell, and homelab infrastructure by Connor."
 url: "https://walkerslab.co.uk"  # base hostname & protocol (no trailing slash)
 baseurl: ""                           # empty = served at the root
 repository: "Walkers-Lab/Walkers-Lab.github.io"
 
 # Theme
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "default"  # "air", "aqua", "contrast", "dark", "dirt",
+minimal_mistakes_skin: "dark"     # "air", "aqua", "contrast", "dark", "dirt",
                                   # "neon", "mint", "plum", "sunrise"
 
 # ---------------------------------------------------------------------------
@@ -63,7 +63,7 @@ exclude:
 author:
   name: "Connor Walker"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "Hey! I'm Connor. I work as a Systems Engineer in the UK and I love to write about IT, Office 365, Home Lab stuff, and PowerShell. "
+  bio: "Hey! I'm Connor. I work as a Systems Engineer in the UK and I love to write about IT, Microsoft 365, Home Lab stuff, and PowerShell."
   location: "United Kingdom"
   links:
     - label: "GitHub"
