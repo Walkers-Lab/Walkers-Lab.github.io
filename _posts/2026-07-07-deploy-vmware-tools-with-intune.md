@@ -8,7 +8,7 @@ tags:
   - vmWare
 excerpt: "How to deploy VMware Tools to virtual machines via Microsoft Intune, using a dynamic device group to automatically target VMware VMs."
 header:
-  teaser: /assets/images/deploy-vmware-tools-with-intune/hero.png    # thumbnail on the home/archive pages
+  teaser: /assets/images/deploy-vmware-tools-with-intune/teaser.png
 ---
 
 In this guide I will be explaining how to deploy the VMware Tools application via Intune. VMware Tools is a suite of utilities and drivers that enhance the performance and management of virtual machines (VMs) running on VMware virtualization platforms. It provides improved graphics performance, better mouse handling, synchronized time between host and guest, and smooth file transfers between them. Additionally, VMware Tools enable advanced features like shared folders, seamless clipboard operations, and more efficient VM management.

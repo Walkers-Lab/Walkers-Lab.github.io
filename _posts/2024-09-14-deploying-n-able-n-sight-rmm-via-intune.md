@@ -8,7 +8,7 @@ tags:
   - N-Able
 excerpt: "Step-by-step guide to packaging the N-Able N-sight RMM agent as a Win32 app and deploying it to Windows devices via Microsoft Intune."
 header:
-  teaser: /assets/images/Deploy-vmWare-tools-via-Intune.webp    # thumbnail on the home/archive pages
+  teaser: /assets/images/n-able-rmm-teaser.png
 ---
 
 In this guide I will be walking you through installing the N-Able N-sight agent via Intune to a Windows 11 Autopilot device.

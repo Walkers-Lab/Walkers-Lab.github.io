@@ -10,7 +10,7 @@ tags:
   - Windows
 excerpt: "Configure a legal notice or welcome message that appears on the Windows login screen using an Intune Settings Catalog profile."
 header:
-  teaser: /assets/images/add-logon-message-via-intune/08-result.png
+  teaser: /assets/images/add-logon-message-via-intune/teaser.png
 ---
 
 An interactive logon message is a customizable text message that appears on the Windows login screen before a user enters their credentials. It can be used for legal notices, acceptable use policies, or welcome messages.
