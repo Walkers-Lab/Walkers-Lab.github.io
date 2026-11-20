@@ -6,7 +6,7 @@ categories:
 tags:
   - Intune
   - vmWare
-excerpt: "The first post — a quick tour of how this blog is put together."
+excerpt: "How to deploy VMware Tools to virtual machines via Microsoft Intune, using a dynamic device group to automatically target VMware VMs."
 header:
   teaser: /assets/images/deploy-vmware-tools-with-intune/hero.png    # thumbnail on the home/archive pages
 ---
@@ -171,4 +171,3 @@ Here you should see the application and the installation status.
 
 ![A teal-to-indigo gradient banner](/assets/images/deploy-vmware-tools-with-intune/18-app-installation-confirmation.png)
 
-78ff2gaw

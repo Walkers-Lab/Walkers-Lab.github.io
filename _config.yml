@@ -29,6 +29,7 @@ lunr:
 # Leave empty to disable (e.g. so local builds don't report traffic).
 # ---------------------------------------------------------------------------
 cloudflare_analytics_token: "a6b65b7664a34a0486ed2b207129933d"
+og_image: "/assets/images/logo.png"
 
 # ---------------------------------------------------------------------------
 # Build settings
