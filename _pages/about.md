@@ -3,6 +3,7 @@ title: "About"
 permalink: /about/
 layout: single
 author_profile: true
+excerpt: "Connor Walker is a Systems Engineer at a UK MSP, writing about Intune, Microsoft 365, PowerShell, and homelab infrastructure."
 ---
 
 

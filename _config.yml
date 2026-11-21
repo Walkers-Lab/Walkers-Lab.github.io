@@ -80,6 +80,14 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:connor@walkerslab.co.uk"
 
+# Social profiles — used by jekyll-seo-tag to generate JSON-LD sameAs links
+social:
+  type: Person
+  name: "Connor Walker"
+  links:
+    - "https://github.com/Walkers-Lab"
+    - "https://www.linkedin.com/in/connor-walker-a46013162/"
+
 # (footer.links intentionally omitted — no social links in the footer)
 
 # Hide the RSS "Feed" link in the footer (feed.xml is still generated for subscribers)
@@ -102,6 +110,7 @@ defaults:
       comments: false
       share: false
       related: true
+      breadcrumbs: true
   # _pages
   - scope:
       path: "_pages"
